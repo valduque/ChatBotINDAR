@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Controllers",
+    "\\Data",
+    "\\Models",
+    "\\Services",
+    "\\View",
+    "\\ViewModel"
+  ],
+  "SelectedNode": "\\Models\\ChatMessage.cs",
+  "PreviewInSolutionExplorer": false
+}
