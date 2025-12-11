@@ -1,13 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\bin",
     "\\Controllers",
     "\\Data",
     "\\Models",
     "\\Services",
-    "\\View",
     "\\ViewModel"
   ],
-  "SelectedNode": "\\Models\\ChatMessage.cs",
+  "SelectedNode": "\\ChatBotINDAR.csproj",
   "PreviewInSolutionExplorer": false
 }

@@ -1,31 +1,34 @@
-public class ChatViewModel
+using ChatBotINDAR.Services;
+using ChatBotINDAR.Data;
+
+namespace ChatBotINDAR.ViewModel
 {
-    private readonly IntentService _intentService;
-    private readonly FAQService _faqService;
-    private readonly OrderService _orderService;
-
-    public ChatViewModel(IntentService intentService, FAQService faqService, OrderService orderService)
+    public class ChatViewModel
     {
-        _intentService = intentService;
-        _faqService = faqService;
-        _orderService = orderService;
-    }
+        private readonly IntentService _intentService;
+        private readonly FAQService _faqService;
+   
 
-    public async Task<string> ProcessMessage(string message) 
-    {
-        var intent = _intentService.DetectIntent(message);
-
-        switch(intent.Name)
+        public ChatViewModel(IntentService intentService, FAQService faqService)
         {
-            case "ConsultarPedido":
-                var pedido = await _orderService.GetOrderStatus(message);
-                return pedido;
+            _intentService = intentService;
+            _faqService = faqService;
+      
+        }
 
-            case "ConsultarFAQ":
-                return _faqService.GetFAQAnswer(message);
+        public async Task<string> ProcessMessage(string message)
+        {
+            var intent = _intentService.DetectIntent(message);
 
-            default:
-                return "No entendí tu consulta, ¿puedes reformularla?";
+            switch (intent)
+            {
+
+                case "ConsultarFAQ":
+                    return _faqService.GetFAQAnswer(message);
+
+                default:
+                    return "No entendí tu consulta, ¿puedes reformularla?";
+            }
         }
     }
 }
