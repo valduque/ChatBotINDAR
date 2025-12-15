@@ -1138,10 +1138,11 @@
           }
         }
       },
-      "Npgsql/8.0.4": {
+      "Npgsql/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
+          "System.Text.Json": "9.0.0"
         },
         "compile": {
           "lib/net8.0/Npgsql.dll": {
@@ -4169,25 +4170,19 @@
         "packageIcon.png"
       ]
     },
-    "Npgsql/8.0.4": {
-      "sha512": "vaYEUlF/pB9m8bs21wQv3Da0kMHT4A9USe47VfY/L2BO97xz5KfIxhEu22QS9d68ZrLxvtL3wQDfDLPr2OjbjA==",
+    "Npgsql/9.0.0": {
+      "sha512": "zu1nCRt0gWP/GR0reYgg0Bl5o8qyNV7mVAgzAbVLRiAd1CYXcf/9nrubPH0mt93u8iGTKmYqWaLVECEAcE6IfQ==",
       "type": "package",
-      "path": "npgsql/8.0.4",
+      "path": "npgsql/9.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
         "lib/net6.0/Npgsql.dll",
         "lib/net6.0/Npgsql.xml",
-        "lib/net7.0/Npgsql.dll",
-        "lib/net7.0/Npgsql.xml",
         "lib/net8.0/Npgsql.dll",
         "lib/net8.0/Npgsql.xml",
-        "lib/netstandard2.0/Npgsql.dll",
-        "lib/netstandard2.0/Npgsql.xml",
-        "lib/netstandard2.1/Npgsql.dll",
-        "lib/netstandard2.1/Npgsql.xml",
-        "npgsql.8.0.4.nupkg.sha512",
+        "npgsql.9.0.0.nupkg.sha512",
         "npgsql.nuspec",
         "postgresql.png"
       ]
@@ -5430,7 +5425,7 @@
       "Microsoft.Extensions.Http >= 8.0.0",
       "Microsoft.IdentityModel.JsonWebTokens >= 6.35.0",
       "Newtonsoft.Json >= 13.0.3",
-      "Npgsql >= 8.0.4",
+      "Npgsql >= 9.0.0",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.416",
       "Serilog.AspNetCore >= 8.0.0",
       "Serilog.Sinks.Console >= 5.0.1",
@@ -5527,7 +5522,7 @@
           },
           "Npgsql": {
             "target": "Package",
-            "version": "[8.0.4, )"
+            "version": "[9.0.0, )"
           },
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
@@ -5578,7 +5573,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "ChatBotINDAR depende de Microsoft.EntityFrameworkCore (>= 8.0.416), pero no se encontró Microsoft.EntityFrameworkCore 8.0.416. Se resolvió una mejor coincidencia aproximada de Microsoft.EntityFrameworkCore 9.0.0.",
+      "message": "ChatBotINDAR depende de Microsoft.EntityFrameworkCore (>= 8.0.416), pero no se encontró Microsoft.EntityFrameworkCore 8.0.416. Microsoft.EntityFrameworkCore 9.0.0 se resolvió en su lugar.",
       "libraryId": "Microsoft.EntityFrameworkCore",
       "targetGraphs": [
         "net8.0"
@@ -5588,7 +5583,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "ChatBotINDAR depende de Microsoft.EntityFrameworkCore.Tools (>= 8.0.416), pero no se encontró Microsoft.EntityFrameworkCore.Tools 8.0.416. Se resolvió una mejor coincidencia aproximada de Microsoft.EntityFrameworkCore.Tools 9.0.0.",
+      "message": "ChatBotINDAR depende de Microsoft.EntityFrameworkCore.Tools (>= 8.0.416), pero no se encontró Microsoft.EntityFrameworkCore.Tools 8.0.416. Microsoft.EntityFrameworkCore.Tools 9.0.0 se resolvió en su lugar.",
       "libraryId": "Microsoft.EntityFrameworkCore.Tools",
       "targetGraphs": [
         "net8.0"
@@ -5598,17 +5593,8 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "ChatBotINDAR depende de Npgsql.EntityFrameworkCore.PostgreSQL (>= 8.0.416), pero no se encontró Npgsql.EntityFrameworkCore.PostgreSQL 8.0.416. Se resolvió una mejor coincidencia aproximada de Npgsql.EntityFrameworkCore.PostgreSQL 9.0.0.",
+      "message": "ChatBotINDAR depende de Npgsql.EntityFrameworkCore.PostgreSQL (>= 8.0.416), pero no se encontró Npgsql.EntityFrameworkCore.PostgreSQL 8.0.416. Npgsql.EntityFrameworkCore.PostgreSQL 9.0.0 se resolvió en su lugar.",
       "libraryId": "Npgsql.EntityFrameworkCore.PostgreSQL",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Advertencia como error: Degradación del paquete detectada: Npgsql de 9.0.0 a 8.0.4. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n ChatBotINDAR -> Npgsql.EntityFrameworkCore.PostgreSQL 9.0.0 -> Npgsql (>= 9.0.0) \r\n ChatBotINDAR -> Npgsql (>= 8.0.4)",
-      "libraryId": "Npgsql",
       "targetGraphs": [
         "net8.0"
       ]

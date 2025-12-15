@@ -9,26 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Migrations\\20251215180820_InitialPostgres.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20251215180820_InitialPostgres.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Migrations\\20251215180820_InitialPostgres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20251215180820_InitialPostgres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Models\\FAQItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\FAQItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Models\\Log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -52,9 +32,9 @@
               "RelativeDocumentMoniker": "ChatBotINDAR.csproj",
               "ToolTip": "C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\ChatBotINDAR.csproj",
               "RelativeToolTip": "ChatBotINDAR.csproj",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA4AAABWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-15T18:58:42.655Z",
+              "WhenOpened": "2025-12-15T20:15:50.635Z",
               "EditorCaption": ""
             },
             {
@@ -67,72 +47,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T18:58:00.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20251215180820_InitialPostgres.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Migrations\\20251215180820_InitialPostgres.Designer.cs",
-              "RelativeDocumentMoniker": "Migrations\\20251215180820_InitialPostgres.Designer.cs",
-              "ToolTip": "C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Migrations\\20251215180820_InitialPostgres.Designer.cs",
-              "RelativeToolTip": "Migrations\\20251215180820_InitialPostgres.Designer.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T18:55:39.461Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20251215180820_InitialPostgres.cs",
-              "DocumentMoniker": "C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Migrations\\20251215180820_InitialPostgres.cs",
-              "RelativeDocumentMoniker": "Migrations\\20251215180820_InitialPostgres.cs",
-              "ToolTip": "C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Migrations\\20251215180820_InitialPostgres.cs",
-              "RelativeToolTip": "Migrations\\20251215180820_InitialPostgres.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T18:54:20.013Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FAQItem.cs",
-              "DocumentMoniker": "C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Models\\FAQItem.cs",
-              "RelativeDocumentMoniker": "Models\\FAQItem.cs",
-              "ToolTip": "C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Models\\FAQItem.cs",
-              "RelativeToolTip": "Models\\FAQItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T18:54:09.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Log.cs",
-              "DocumentMoniker": "C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Models\\Log.cs",
-              "RelativeDocumentMoniker": "Models\\Log.cs",
-              "ToolTip": "C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Models\\Log.cs",
-              "RelativeToolTip": "Models\\Log.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T18:54:07.945Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T18:54:06.404Z",
+              "WhenOpened": "2025-12-15T20:15:44.087Z",
               "EditorCaption": ""
             }
           ]

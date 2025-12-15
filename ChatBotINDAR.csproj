@@ -11,7 +11,7 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 
     <!-- POSTGRESQL -->
-    <PackageReference Include="Npgsql" Version="8.0.4" />
+    <PackageReference Include="Npgsql" Version="9.0.0" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.416" />
 
     <!-- EF CORE -->
