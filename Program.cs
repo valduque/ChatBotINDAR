@@ -9,9 +9,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Conexión a PostgreSQL
+// Conexión a SQL Server
 builder.Services.AddDbContext<ChatbotContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("ChatbotDb")));
+    options.UseNpgsql(
+        builder.Configuration.GetConnectionString("ChatbotDb")));
 
 // Inyección del ChatbotService
 builder.Services.AddScoped<ChatbotService>();
