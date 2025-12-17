@@ -3,10 +3,14 @@
     "",
     "\\Controllers",
     "\\Data",
+    "\\Frontend",
+    "\\Frontend\\chatbot",
+    "\\Frontend\\chatbot\\src",
+    "\\Frontend\\chatbot\\src\\app",
     "\\Migrations",
     "\\Models",
     "\\obj"
   ],
-  "SelectedNode": "\\Program.cs",
+  "SelectedNode": "\\Frontend\\chatbot\\src\\app\\chatbot.component.ts",
   "PreviewInSolutionExplorer": false
 }
