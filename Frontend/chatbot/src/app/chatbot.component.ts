@@ -10,7 +10,6 @@ interface Message {
   text: string;
   isUser: boolean;
   timestamp: Date;
-  //hour = timestamp.getHours();
 }
 
 @Component({
@@ -36,7 +35,7 @@ interface Message {
                [class.user-message]="msg.isUser"
                [class.bot-message]="!msg.isUser"
                class="message">
-            {{ (msg.text) + (msg.timestamp.getHours()) + ":" + (msg.timestamp.getMinutes())}}
+            {{ (msg.text) +"\n"+ (msg.timestamp.getHours()) + ":" + (msg.timestamp.getMinutes()) }}
           </div>
         </div>
         
@@ -143,6 +142,7 @@ interface Message {
       color: white;
       margin-left: auto;
       text-align: right;
+      white-space: pre-line;
 
     }
 
