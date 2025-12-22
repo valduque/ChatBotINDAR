@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
+
 interface Message {
   text: string;
   isUser: boolean;
@@ -18,12 +19,13 @@ interface Message {
 
          <button
   class="chat-button"
-  *ngIf="!isOpen"
-  [class.animateExit]="isAnimating"
   (click)="openChat()"
+  [class.animateOpen]="isAnimating"
+  [class.animateExit]="!isAnimating"
 >
   ?
 </button>
+
 
       
       <!-- Ventana del chat -->
@@ -31,7 +33,9 @@ interface Message {
       [class.animate-enter]="isOpen">
         <div class="chat-header">
           <h3>Chat de Ayuda</h3>
-          <button class="close-btn" (click)="closeChat()">✕</button>
+          <button class="close-btn"
+          (click)="closeChat()"
+          >✕</button>
         </div>
         
         <div class="chat-body" #chatBody>
@@ -74,14 +78,16 @@ export class ChatbotComponent {
 
   // Abrir el chat
   openChat(): void {
-    this.isAnimating = true;
+  
     this.isOpen = true;
+    this.isAnimating = true;
     }
   
 
   // Cerrar el chat
   closeChat(): void {
     this.isOpen = false;
+    this.isAnimating = false;
   }
 
   // Enviar mensajes 
@@ -115,3 +121,6 @@ export class ChatbotComponent {
     return `${hours}:${minutes}`;
   }
 }
+
+
+
