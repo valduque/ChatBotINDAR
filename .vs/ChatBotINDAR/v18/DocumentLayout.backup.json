@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DF0D1CBC-A528-2729-AB92-5397470E3599}|ChatBotINDAR.csproj|c:\\users\\valer\\documents\\repo de repos\\chatbotindar\\frontend\\chatbot\\src\\app\\chatbot.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{DF0D1CBC-A528-2729-AB92-5397470E3599}|ChatBotINDAR.csproj|solutionrelative:frontend\\chatbot\\src\\app\\chatbot.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF0D1CBC-A528-2729-AB92-5397470E3599}|ChatBotINDAR.csproj|c:\\users\\valer\\documents\\repo de repos\\chatbotindar\\frontend\\chatbot\\src\\app\\chatbot.styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DF0D1CBC-A528-2729-AB92-5397470E3599}|ChatBotINDAR.csproj|solutionrelative:frontend\\chatbot\\src\\app\\chatbot.styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DF0D1CBC-A528-2729-AB92-5397470E3599}|ChatBotINDAR.csproj|c:\\users\\valer\\documents\\repo de repos\\chatbotindar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF0D1CBC-A528-2729-AB92-5397470E3599}|ChatBotINDAR.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -17,12 +25,54 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "chatbot.styles.css",
+              "DocumentMoniker": "C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Frontend\\chatbot\\src\\app\\chatbot.styles.css",
+              "RelativeDocumentMoniker": "Frontend\\chatbot\\src\\app\\chatbot.styles.css",
+              "ToolTip": "C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Frontend\\chatbot\\src\\app\\chatbot.styles.css",
+              "RelativeToolTip": "Frontend\\chatbot\\src\\app\\chatbot.styles.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-22T16:12:30.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "chatbot.component.ts",
+              "DocumentMoniker": "C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Frontend\\chatbot\\src\\app\\chatbot.component.ts",
+              "RelativeDocumentMoniker": "Frontend\\chatbot\\src\\app\\chatbot.component.ts",
+              "ToolTip": "C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Frontend\\chatbot\\src\\app\\chatbot.component.ts",
+              "RelativeToolTip": "Frontend\\chatbot\\src\\app\\chatbot.component.ts",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-12-22T14:47:19.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

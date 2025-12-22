@@ -7,6 +7,18 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Frontend\\chatbot\\src\\app\\chatbot.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Frontend\\chatbot\\src\\app\\chatbot.styles.css||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Frontend\\chatbot\\src\\app\\chatbot.styles.css||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Frontend\\chatbot\\src\\app\\app.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Frontend\\chatbot\\src\\app\\app.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Frontend\\chatbot\\src\\app\\app.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Frontend\\chatbot\\src\\app\\app.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Frontend\\chatbot\\src\\app\\app.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Frontend\\chatbot\\src\\app\\app.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
@@ -17,14 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Frontend\\chatbot\\src\\main.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Frontend\\chatbot\\src\\main.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Frontend\\chatbot\\src\\app\\app.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Frontend\\chatbot\\src\\app\\app.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Frontend\\chatbot\\src\\app\\app.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Frontend\\chatbot\\src\\app\\app.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "main.ts",
               "DocumentMoniker": "C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Frontend\\chatbot\\src\\main.ts",
               "RelativeDocumentMoniker": "Frontend\\chatbot\\src\\main.ts",
@@ -47,37 +51,53 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2025-12-17T14:18:12.296Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "app.config.ts",
-              "DocumentMoniker": "C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Frontend\\chatbot\\src\\app\\app.config.ts",
-              "RelativeDocumentMoniker": "Frontend\\chatbot\\src\\app\\app.config.ts",
-              "ToolTip": "C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Frontend\\chatbot\\src\\app\\app.config.ts",
-              "RelativeToolTip": "Frontend\\chatbot\\src\\app\\app.config.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-12-17T17:57:00.788Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "app.config.ts",
+              "DocumentMoniker": "C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Frontend\\chatbot\\src\\app\\app.config.ts",
+              "RelativeDocumentMoniker": "Frontend\\chatbot\\src\\app\\app.config.ts",
+              "ToolTip": "C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Frontend\\chatbot\\src\\app\\app.config.ts",
+              "RelativeToolTip": "Frontend\\chatbot\\src\\app\\app.config.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-12-18T16:18:27.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "chatbot.styles.css",
+              "DocumentMoniker": "C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Frontend\\chatbot\\src\\app\\chatbot.styles.css",
+              "RelativeDocumentMoniker": "Frontend\\chatbot\\src\\app\\chatbot.styles.css",
+              "ToolTip": "C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Frontend\\chatbot\\src\\app\\chatbot.styles.css",
+              "RelativeToolTip": "Frontend\\chatbot\\src\\app\\chatbot.styles.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-18T15:46:06.035Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "main.server.ts",
               "DocumentMoniker": "C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Frontend\\chatbot\\src\\main.server.ts",
               "RelativeDocumentMoniker": "Frontend\\chatbot\\src\\main.server.ts",
@@ -96,14 +116,14 @@
               "RelativeDocumentMoniker": "Frontend\\chatbot\\src\\app\\chatbot.component.ts",
               "ToolTip": "C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Frontend\\chatbot\\src\\app\\chatbot.component.ts",
               "RelativeToolTip": "Frontend\\chatbot\\src\\app\\chatbot.component.ts",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCUAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAcwFMAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2025-12-16T19:59:30.734Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "app.html",
               "DocumentMoniker": "C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Frontend\\chatbot\\src\\app\\app.html",
               "RelativeDocumentMoniker": "Frontend\\chatbot\\src\\app\\app.html",
@@ -111,11 +131,12 @@
               "RelativeToolTip": "Frontend\\chatbot\\src\\app\\app.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-12-16T19:50:58.92Z"
+              "WhenOpened": "2025-12-16T19:50:58.92Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "app.ts",
               "DocumentMoniker": "C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Frontend\\chatbot\\src\\app\\app.ts",
               "RelativeDocumentMoniker": "Frontend\\chatbot\\src\\app\\app.ts",
@@ -128,11 +149,7 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         }
