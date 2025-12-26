@@ -7,6 +7,7 @@ interface Message {
   text: string;
   isUser: boolean;
   timestamp: Date;
+  options?: string[];
 }
 
 @Component({
@@ -17,19 +18,18 @@ interface Message {
     <div class="chatbot-container">
       <!-- Botón flotante -->
 
+  <!---Se le quito la variable de isOpen para que la animacion del boton funcione correctamente y no dependa del estado de la ventana del chat.--->
+
          <button
   class="chat-button"
   (click)="openChat()"
   [class.animateOpen]="isAnimating"
-  [class.animateExit]="!isAnimating"
->
+  [class.animateExit]="!isAnimating">
   ?
 </button>
 
-
-      
       <!-- Ventana del chat -->
-      <div class="chat-window" *ngIf="isOpen"
+   <div class="chat-window" *ngIf="isOpen"
       [class.animate-enter]="isOpen">
         <div class="chat-header">
           <h3>Chat de Ayuda</h3>
@@ -44,6 +44,17 @@ interface Message {
                [class.bot-message]="!msg.isUser"
                class="message">
             <div class="message-text">{{ msg.text }}</div>
+
+            <!-- MENÚ DE BOTONES -->
+    <div class="options" *ngIf="!msg.isUser && msg.options?.length">
+      <button
+        *ngFor="let option of msg.options"
+        class="option-btn"
+        (click)="onOptionSelected(option)">
+        {{ option }}
+      </button>
+    </div>
+
             <div class="message-time">{{ formatTime(msg.timestamp) }}</div>
           </div>
         </div>
@@ -72,7 +83,15 @@ export class ChatbotComponent {
     {
       text: '¡Hola! ¿En qué puedo ayudarte?',
       isUser: false,
-      timestamp: new Date()
+      timestamp: new Date(),
+      options: [
+        'Negocio',
+        'Compras',
+        'Pagos',
+        'Horario de atención',
+        'Quiero unirme',
+        'Soporte técnico',
+      ]
     }
   ];
 
@@ -107,11 +126,31 @@ export class ChatbotComponent {
     // Simular respuesta del bot
     setTimeout(() => {
       this.messages.push({
-        text: 'Gracias por tu mensaje. ¿En qué más puedo ayudarte?',
+        text: 'Gracias por tu mensaje. ¿Puedo ayudarte en algo más?',
         isUser: false,
-        timestamp: new Date()
+        timestamp: new Date(),
+        options: [
+          'Ventas',
+          'Seguimiento de pedido',
+          'Facturación',
+          'Hablar con un asesor',
+          'Regresar al menú principal'
+        ]
       });
-    }, 1000);
+    }, 15000);
+  }
+
+  // Manejar funciones de respuesta del bot
+  onOptionSelected(option: string) {
+    // Simula mensaje del usuario
+    this.messages.push({
+      text: option,
+      isUser: true,
+      timestamp: new Date()
+    });
+
+    // Aquí falta desarrollar la logica real para cada opción seleccionada
+ //his.handleUserMessage(option);
   }
 
   // Formatear hora

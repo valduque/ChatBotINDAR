@@ -1,7 +1,6 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Controllers",
     "\\Data",
     "\\Frontend",
     "\\Frontend\\chatbot",
@@ -9,7 +8,8 @@
     "\\Frontend\\chatbot\\src\\app",
     "\\Migrations",
     "\\Models",
-    "\\obj"
+    "\\obj",
+    "\\Services"
   ],
   "PreviewInSolutionExplorer": false
 }
