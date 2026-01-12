@@ -18,12 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
@@ -41,6 +37,14 @@
               "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "chatbot.styles.css",
@@ -48,7 +52,7 @@
               "RelativeDocumentMoniker": "Frontend\\chatbot\\src\\app\\chatbot.styles.css",
               "ToolTip": "C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Frontend\\chatbot\\src\\app\\chatbot.styles.css",
               "RelativeToolTip": "Frontend\\chatbot\\src\\app\\chatbot.styles.css",
-              "ViewState": "AgIAAKYAAAAAAAAAAAAowLIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAAAMkAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-12-22T16:12:30.29Z",
               "EditorCaption": ""
@@ -61,7 +65,7 @@
               "RelativeDocumentMoniker": "Frontend\\chatbot\\src\\app\\chatbot.component.ts",
               "ToolTip": "C:\\Users\\valer\\Documents\\Repo de Repos\\ChatBotINDAR\\Frontend\\chatbot\\src\\app\\chatbot.component.ts",
               "RelativeToolTip": "Frontend\\chatbot\\src\\app\\chatbot.component.ts",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAUwIUAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAmwKUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2025-12-22T14:47:19.566Z",
               "EditorCaption": ""

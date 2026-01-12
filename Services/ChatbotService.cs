@@ -12,18 +12,24 @@ namespace ChatBotINDAR.Services
             _context = context;
         }
 
-        public async Task<string> GetAnswerAsync(string question)
+        public async Task<ChatNodeDto?> GetNodeAsync(int nodeId)
         {
-            // Buscar respuesta en FAQs
-            var faq = await _context.FAQs
-            .Where(x => x.Question.ToLower().Contains(question.ToLower()))
-            .FirstOrDefaultAsync();
+            var node = await _context.ChatNodes
+                .Include(n => n.Options)
+                .FirstOrDefaultAsync(n => n.Id == nodeId);
 
+            if (node == null) return null;
 
-            if (faq != null)
-                return faq.Answer;
-
-            return "No encontré información sobre esa pregunta.";
+            return new ChatNodeDto
+            {
+                Id = node.Id,
+                Message = node.Message,
+                Options = node.Options.Select(o => new ChatOptionDto
+                {
+                    Label = o.Label,
+                    NextNodeId = o.NextNodeId
+                }).ToList()
+            };
         }
     }
 }

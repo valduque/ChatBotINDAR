@@ -17,6 +17,7 @@ builder.Services.AddDbContext<ChatbotContext>(options =>
 // Inyección del ChatbotService
 builder.Services.AddScoped<ChatbotService>();
 
+
 var app = builder.Build();
 
 // Swagger solo en desarrollo

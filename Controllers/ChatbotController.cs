@@ -1,5 +1,6 @@
-using Microsoft.AspNetCore.Mvc;
-using ChatBotINDAR.Services;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using ChatBotINDAR.Data;
 
 namespace ChatBotINDAR.Controllers
 {
@@ -7,18 +8,17 @@ namespace ChatBotINDAR.Controllers
     [Route("api/chatbot")]
     public class ChatbotController : ControllerBase
     {
-        private readonly ChatbotService _service;
+        private readonly IChatService _chatService;
 
-        public ChatbotController(ChatbotService service)
+        public ChatController(IChatService chatService)
         {
-            _service = service;
+            _chatService = chatService;
         }
 
-        [HttpGet("ask")]
-        public async Task<IActionResult> Ask([FromQuery] string question)
+        [HttpPost]
+        public IActionResult Chat(ChatRequestVM request)
         {
-            var answer = await _service.GetAnswerAsync(question);
-            return Ok(new { question, answer });
+            var response = _chatService.ProcessMessage(request);
+            return Ok(response);
         }
     }
-}

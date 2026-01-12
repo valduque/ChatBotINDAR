@@ -1,15 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Data",
+    "\\FAQs",
     "\\Frontend",
     "\\Frontend\\chatbot",
     "\\Frontend\\chatbot\\src",
     "\\Frontend\\chatbot\\src\\app",
-    "\\Migrations",
-    "\\Models",
-    "\\obj",
-    "\\Services"
+    "\\Frontend\\chatbot\\src\\app\\Core",
+    "\\Frontend\\chatbot\\src\\app\\Core\\Services",
+    "\\Frontend\\chatbot\\src\\app\\Pages",
+    "\\Frontend\\chatbot\\src\\app\\Pages\\Chatbot"
   ],
+  "SelectedNode": "\\FAQs",
   "PreviewInSolutionExplorer": false
 }
